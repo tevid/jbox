@@ -96,7 +96,7 @@ bintray {
         issueTrackerUrl = 'https://github.com/tevid/jbox/issues'
         labels = ['java', 'micro-service']
         version {
-            name = '0.0.1-FINAL'
+            name = '0.0.2'
             desc = 'Java set up common methods of micro service '
             released = new Date()
         }
