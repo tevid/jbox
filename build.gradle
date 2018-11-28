@@ -96,7 +96,7 @@ bintray {
         issueTrackerUrl = 'https://github.com/tevid/jbox/issues'
         labels = ['java', 'micro-service']
         version {
-            name = '0.0.2'
+            name = version
             desc = 'Java set up common methods of micro service '
             released = new Date()
         }
@@ -125,7 +125,6 @@ dependencies {
 
     compile(libraries.jedis)
     compile(libraries.slf4j)
-    compile('com.tevid.jbox:jbox:0.0.1-FINAL')
 
     testCompile(libraries.springTest)
     testCompile(libraries.junit)
